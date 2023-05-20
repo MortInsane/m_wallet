@@ -1,3 +1,8 @@
 from django.contrib import admin
+from .models import Accounting, Categories
 
-# Register your models here.
+
+admin.site.register(Accounting)
+admin.site.register(Categories)
+
+
